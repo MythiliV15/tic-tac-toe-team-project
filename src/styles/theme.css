@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 30px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #ff7675;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
