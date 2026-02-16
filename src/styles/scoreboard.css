@@ -1,0 +1,37 @@
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 20px;
+  margin: 16px 0;
+  background: #1e1e2f;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.scoreboard span {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.scoreboard span:first-child {
+  color: #4da6ff; /* Player X */
+}
+
+.scoreboard span:last-child {
+  color: #ff8080; /* Player O */
+}
+
+/* Optional: responsive tweak */
+@media (max-width: 480px) {
+  .scoreboard {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
